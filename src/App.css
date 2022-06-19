@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+
+body {
+  background-color:#d3a797;
+}
+
+ul {
+  list-style-type:none;
+}
+
+.line-through {
+  text-decoration:line-through;
+  text-decoration-color:red;
+}
+
+.overflow {
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  overflow:hidden;
+  
+
+}
+
+
+
+
+header {
+  margin-top:10vh;
+  color:aliceblue;
+  padding:3rem;
+}
+
+.form-control {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:2rem;
+}
+
+.loading {
+  margin-top:20vh;
+  text-align:center;
+}
+
+.none {
+  color:aliceblue;
+}
+
+
+.itemContainer {
+  margin:2rem 0;
+}
+
+.paginatedButtons {
+    display:flex;
+    justify-content:center;
+    gap:1rem;
+    align-items:center;
+    text-align:center;
+    margin:auto;
+
+
+}
+
+.paginatedButtons li {
+  cursor:pointer;
+  padding:0.5rem;
+}
+
+.active {
+  background:#9c27b0;
+  border-radius:1rem;
+  color:#fff;
+}
+
+.size-const {
+    resize:none;
+}
